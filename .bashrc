@@ -8,6 +8,15 @@ alias ll='ls -la'
 alias lll='ls -la | less'
 alias cls='clear'
 
+# GIT ALIASES
+
+alias ga='git add'
+alias gc='git commit'
+alias gl='git log --oneline --graph --all --branches'
+alias gs='git status'
+alias gb='git branch'
+
+# PASSWORD GENERATORS
 alias pass10='i=0; while [ $i -lt 10 ]; do  cat /dev/urandom | tr -dc a-z0-9A-Z | head -c10 ; echo; let i=i+1; done'
 alias pass15='i=0; while [ $i -lt 10 ]; do  cat /dev/urandom | tr -dc a-z0-9A-Z | head -c15 ; echo; let i=i+1; done'
 alias pass20='i=0; while [ $i -lt 10 ]; do  cat /dev/urandom | tr -dc a-z0-9A-Z | head -c20 ; echo; let i=i+1; done'
